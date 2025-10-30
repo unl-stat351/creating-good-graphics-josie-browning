@@ -48,29 +48,29 @@ This assignment will help you practice the following skills which are important 
 
 -   [x] Each chart has appropriate alt-text that provides essential information to a visually impaired individual or screen-reader user.
 
--   [ ] YAML chunk options are formatted correctly and compile.
+-   [x] YAML chunk options are formatted correctly and compile.
 
 -   [ ] Grammar of graphics table is filled out correctly.
 
--   [ ] Analysis of effective communication in each chart is reasonable.
+-   [x] Analysis of effective communication in each chart is reasonable.
 
-    -   [ ] Charts that ineffectively show changes in vaccine rates over time across different age groups
-        -   [ ] are identified and
-        -   [ ] an explanation of *why* they are ineffective is provided.
-    -   [ ] Charts that are appropriate but perhaps suboptimal
-        -   [ ] have issues identified and
-        -   [ ] what would be changed to address the issue is provided and appropriate.
+    -   [x] Charts that ineffectively show changes in vaccine rates over time across different age groups
+        -   [x] are identified and
+        -   [x] an explanation of *why* they are ineffective is provided.
+    -   [x] Charts that are appropriate but perhaps suboptimal
+        -   [x] have issues identified and
+        -   [x] what would be changed to address the issue is provided and appropriate.
 
 -   [ ] Gestalt principles of grouping
 
     -   [ ] Principles that apply are ID'd for each chart
     -   [ ] Principle effectiveness is evaluated
 
--   [ ] Message Evaluation
+-   [x] Message Evaluation
 
-    -   [ ] Important messages from the data set are identified
-    -   [ ] Comparisons that should be easy to perform are identified
-    -   [ ] Obstacles are provided (if there are any, if not, "no obstacles" is an ok answer... but be careful with its use.)
+    -   [x] Important messages from the data set are identified
+    -   [x] Comparisons that should be easy to perform are identified
+    -   [x] Obstacles are provided (if there are any, if not, "no obstacles" is an ok answer... but be careful with its use.)
 
 -   [ ] Improved chart is created, and changes relative to initial charts are explained.
 
