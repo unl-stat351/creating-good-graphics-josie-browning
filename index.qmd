@@ -264,20 +264,15 @@ nc_est2024_agesex <- read_excel("nc-est2024-agesex.xlsx",
     col_names = FALSE)
 
 real_data <- nc_est2024_agesex %>%
-    select("...1", "...14", "...15", "...16", "...17", "...18", "...19") %>%
+    select("...1", "...14", "...17") %>%
     slice(4:38) %>%
     rename("age" = "...1",
            "total_2023" = "...14",
-           "male_2023" = "...15",
-           "female_2023" = "...16",
-           "total_2024" = "...17",
-           "male_2024" = "...18",
-           "female_2024" = "...19") %>%
-    slice(3:35)
+           "total_2024" = "...17") %>%
+    na.omit() %>%
+    mutate(across(c(total_2023, total_2024), as.numeric))
 
-# age_groups <- c("18-29", "30-49", "50-64", "65+")
-real_data_groups <- real_data %>%
-    summarise(`.18 to 29 years` = `.18 years and over` - sum([3:19,]))
+weekly_data <- read.csv("Weekly_Cumulative_Estimated_Number_of_COVID-19_Vaccinations_Administered_in_Pharmacies_and_Physician_Medical_Offices,_Adults_18_years_and_older,_by_Season_and_Age_Group,_United_States_20251021.csv")
 
 ```
 
